@@ -109,7 +109,7 @@ let g:indent_guides_auto_colors = 1
 " autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
 hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
-" 激活IndentGuide,但是不能再这里写？这能在vim的cmd里写才能用
+" 激活IndentGuide,但是不能在这里写，只能在vim的cmd里写才能用
 " IndentGuidesEnable
 
 " ===================================================
