@@ -117,7 +117,7 @@ hi IndentGuidesOdd  ctermbg=black
 hi IndentGuidesEven ctermbg=darkgrey
 " 激活IndentGuide,但是不能在这里写，只能在vim的cmd里写才能用
 " IndentGuidesEnable
-
+au  VimEnter * :IndentGuidesEnable
 " ===================================================
 " カラースキーマ適用後も背景を透明にする為のscript(残念ながら全然効かない)
 "
