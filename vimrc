@@ -26,12 +26,18 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
 
+" https://github.com/Shougo/unite.vim
+NeoBundle 'Shougo/unite.vim'
+
 NeoBundle 'kannokanno/previm'
 NeoBundle 'suan/vim-instant-markdown' 
 NeoBundle 'iamcco/markdown-preview.vim'
 NeoBundle 'valloric/youcompleteme'
 NeoBundle 'jacoborus/tender'
+ 
+" https://github.com/tpope/vim-surround
 NeoBundle 'surround.vim'
+
 NeoBundle 'rickhowe/diffchar.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'nathanaelkane/vim-indent-guides'
