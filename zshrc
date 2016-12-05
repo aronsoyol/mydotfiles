@@ -188,12 +188,13 @@ export LC_MESSAGES="ja_JP.UTF-8"
 export LC_ALL="ja_JP.UTF-8"
 
 #pyenv
-#export PYENV_ROOT="$HOME/.pyenv"=$PYENV_ROOT:$PATH
-#eval "$(pyenv init -)"
-
+export PYENV_ROOT="$HOME/.pyenv"
 #To use Homebrew's directories rather than ~/.pyenv add to your profile:
-export PYENV_ROOT=/usr/local/var/pyenv
-
+#export PYENV_ROOT=/usr/local/var/pyenv
+if [ -d "${PYENV_ROOT}" ]; then
+    export PATH=${PYENV_ROOT}/bin:$PATH
+	eval "$(pyenv init -)"
+fi
 #To enable shims and autocompletion add to your profile:
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
