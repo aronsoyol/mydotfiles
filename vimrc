@@ -32,7 +32,7 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'suan/vim-instant-markdown' 
 NeoBundle 'iamcco/markdown-preview.vim'
-NeoBundle 'valloric/youcompleteme'
+"NeoBundle 'valloric/youcompleteme'
 NeoBundle 'jacoborus/tender'
  
 " https://github.com/tpope/vim-surround
