@@ -15,6 +15,7 @@ endif
 " Required:
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 
+" https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh
 " Required:
 call neobundle#begin(expand('~/.vim/bundle/'))
 
