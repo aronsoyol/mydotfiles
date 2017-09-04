@@ -35,7 +35,7 @@ NeoBundle 'suan/vim-instant-markdown'
 NeoBundle 'iamcco/markdown-preview.vim'
 "NeoBundle 'valloric/youcompleteme'
 NeoBundle 'jacoborus/tender'
- 
+NeoBundle 'altercation/vim-colors-solarized' 
 " https://github.com/tpope/vim-surround
 NeoBundle 'surround.vim'
 
@@ -159,3 +159,5 @@ imap ( ()<LEFT>
 "
 " filetypeの自動検出(最後の方に書いた方がいいらしい)
 filetype on
+set background=dark
+colorscheme solarized
