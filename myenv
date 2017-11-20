@@ -1,0 +1,10 @@
+alias ll="ls -lGh"
+alias gll="gls -lh --color=always"
+alias gls="gls -h --color=always"
+alias more="more -R"
+alias openpreview="open -a Preview"
+alias openchrome="open -a Google\ Chrome"
+
+export APB_HOME="/Users/aron/dev/jekyll0/aronsoyol"
+alias mynote="subl -n ${APB_HOME}/aronsoyol.sublime-project/"
+alias newnote="subl -n ${APB_HOME}/aronsoyol.sublime-project/ s"
