@@ -6,5 +6,4 @@ alias openpreview="open -a Preview"
 alias openchrome="open -a Google\ Chrome"
 
 export APB_HOME="/Users/aron/dev/jekyll0/aronsoyol"
-alias mynote="subl -n ${APB_HOME}/aronsoyol.sublime-project/"
-alias newnote="subl -n ${APB_HOME}/aronsoyol.sublime-project/ s"
+export PATH=$PATH:$HOME/dev/apbcommand
