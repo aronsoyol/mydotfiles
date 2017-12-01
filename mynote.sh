@@ -1,0 +1,1 @@
+subl -n /Users/aron/dev/jekyll0/aronsoyol/aronsoyol.sublime-project/
