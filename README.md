@@ -56,3 +56,8 @@ bashを起動するたびに設定する必要のあるもの
 ログイン時には必ずこの処理をしてほしいなどということがあれば、~/.bash_loginにその処理を書いておくことで~/.bashrcを削除しても処理が実行される
 
 [ http://qiita.com/hirokishirai/items/5a529c8395c4b336bf31 ](http://qiita.com/hirokishirai/items/5a529c8395c4b336bf31)
+
+# tmux
+
+- tmux 2.3 を入れる
+- yumに入ってるバージョン(1.x)はVIMの配色を正しく表示できない
