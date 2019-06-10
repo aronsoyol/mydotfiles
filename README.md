@@ -62,3 +62,16 @@ bashを起動するたびに設定する必要のあるもの
 
 - tmux 2.3 を入れる
 - yumに入ってるバージョン(1.x)はVIMの配色を正しく表示できない
+
+## Powerline fonts
+
+```
+# https://github.com/powerline/fonts
+cd ~
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh 
+./install.psl (windows)
+
+```
